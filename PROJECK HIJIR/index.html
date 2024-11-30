@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Apotek AL-HIJIR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="section-latar">
+</div>
+<body>
+    <header>
+        <div class="container">
+            <h1>Apotek AL-HIJIR</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#profil">Profil</a></li>
+                    <li><a href="#harga">Harga</a></li>
+                    <li><a href="#pesanan">Pesanan</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#media">Media Sosial</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+
+    <section id="profil">
+        <h2>Apotek AL-HIJIR</h2>
+        <img src="toko.jpeg" alt="Profil Usaha">
+        <p>Apotek AL-HIJIR adalah usaha rumahan yang Bergerak dibidang kesehatan.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Produk obat kami</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="amoxillin.jpeg" alt="amoxillin" width="200" height="150">
+                <h3>amoxillin</h3>
+            </div>
+            <div class="menu-item">
+                <img src="paracetamol.jpeg" alt="paracetamol">
+                <h3>Vitamin</h3>
+            </div>
+            <div class="menu-item">
+                <img src="vitamin.jpeg" alt="vitamin">
+                <h3>paracetamol</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="harga">
+        <h2>Daftar Harga</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Produk</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>amoxillin</td>
+                    <td>Rp 15,000</td>
+                </tr>
+                <tr>
+                    <td>Vitamin</td>
+                    <td>Rp 10,000</td>
+                </tr>
+                <tr>
+                    <td>paracetamol</td>
+                    <td>Rp 10,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="pesanan">
+        <h2>Form Pesanan</h2>
+        <form action="/submit-order" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="produk">Produk:</label>
+            <select id="produk" name="produk">
+                <option value="roti-tawar">amoxillin</option>
+                <option value="roti-cokelat">Vitamin</option>
+                <option value="roti-keju">paracetamol</option>
+            </select>
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <button type="submit">Pesan</button>
+        </form>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="media">
+        <h2>Media Sosial</h2>
+        <ul>
+            <ul><a href="https://youtube.com/@alhijir3741?si=bu0yRw5PkTcplKyV">Youtube</a></ul>
+            <ul><a href="https://www.instagram.com/alhijirr/profilecard/?igsh=MTFvdGNoZHN2cmJkOA==">Instagram</a></ul>
+            <ul><a href="alhijir30@gmail.com">Email</a></ul>
+       </ul>
+    </section>
+   <section id="pengembang">
+        <p>Website ini dikembangkan oleh [AL-HIJIR]. Hubungi kami untuk kolaborasi lebih lanjut.</p>
+    </section>
+   <footer>
+        <p>Terimakasih sudah berkunjung kepuasan pelanggan adalah prioritas kami.</p>
+    </footer>
+</body>
+</html>
+
